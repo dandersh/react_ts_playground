@@ -27,9 +27,9 @@ const columns = [
 ]
 
 type TotalResults = {
-    count: string
+    count: number
     next: string
-    previous: boolean
+    previous: boolean | null
     results: Array<SWPerson>
 }
 
