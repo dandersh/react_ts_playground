@@ -36,13 +36,13 @@ const SwapiPlanet = ({planet}: TPlanet) => {
                 image={empire_poster}
             />
             <CardContent>
-            <Typography>
+            <Typography color="primary" >
                 Film: {title}
             </Typography>
-            <Typography>
+            <Typography color="secondary">
                 Director: {director}
             </Typography>
-            <Typography>
+            <Typography color="secondary">
                 Producer(s): {producer}
             </Typography>
             </CardContent>
