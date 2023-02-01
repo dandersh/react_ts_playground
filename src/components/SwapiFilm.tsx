@@ -25,7 +25,7 @@ type TPlanet = {
     planet: SWPlanet
 }
 
-const SwapiPlanet = ({planet}: TPlanet) => {
+const Swapifilm = ({planet}: TPlanet) => {
     const {title, director, producer} = planet
     return (
         <Card variant="outlined" sx={{ maxWidth: 345, margin: '0px auto' }}>
@@ -50,4 +50,4 @@ const SwapiPlanet = ({planet}: TPlanet) => {
     )
 }
 
-export default SwapiPlanet
+export default Swapifilm
