@@ -1,9 +1,8 @@
 import "./App.css";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query-devtools";
-import SwapiContainer from "./components/SwapiContainer";
+import SwapiCharacters from "./features/characters";
 import SwapiFilm from "./components/SwapiFilm";
-// import SwapiFilms from "./components/SwapiFilms";
 import SwapiFilms from "./features/films";
 import empire_movie from "../src/data/empire_movie.json";
 import { ThemeProvider, createTheme, useTheme } from "@mui/material/styles";
@@ -50,7 +49,7 @@ function App() {
         <div className="App">
           <SwapiFilms />
           <SwapiFilm planet={empire_movie} />
-          <SwapiContainer />
+          <SwapiCharacters />
         </div>
         {/* <ReactQueryDevtools initialIsOpen={true} /> */}
       </ThemeProvider>

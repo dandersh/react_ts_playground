@@ -15,7 +15,7 @@ const wrapComponent = (Component: any) => (props: any) => {
 
 const WrappedSwapiList = wrapComponent(SwapiList)
 
-const SwapiContainer = () => {
+const SwapiCharacters = () => {
     const [data, setData] = useState()
     const [isLoading, setIsLoading] = useState(false)
 
@@ -31,4 +31,4 @@ const SwapiContainer = () => {
 
 }
 
-export default SwapiContainer;
+export default SwapiCharacters;
